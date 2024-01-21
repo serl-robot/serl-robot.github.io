@@ -1,6 +1,6 @@
 # SERL: A Software Suite for Sample-Efficient Robotic Reinforcement Learning
 
-This is the repository that contains source code for the [SERl website](https://serl-robot.github.io).
+This is the repository that contains source code for the [SERL website](https://serl-robot.github.io).
 
 <!-- If you find Nerfies useful for your work please cite:
 ```
