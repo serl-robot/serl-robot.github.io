@@ -138,15 +138,18 @@
                 </span>
               </div>
             </div>
+            <!-- <img src="./static/images/teaser.png" alt="Teaser Image">
+            <div class="content" style="font-weight: bold; font-size: larger;">
+              SERL is an easy to use software suite for training online reinforcement learning agents on real robots.
+            </div> -->
           </div>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <!-- <section class="section">
     <div class="container">
-      <!-- Paper video. -->
       <div class="columns is-centered has-text-centered">
         <div class="column">
           <h2 class="title is-3">Video</h2>
@@ -158,54 +161,112 @@
           </div>
         </div>
       </div>
-      <!--/ Paper video. -->
-      <!-- Abstract. -->
-      <!-- <div class="columns is-centered has-text-centered">
-      <div class="column">
-        <h2 class="title is-3">Abstract</h2>
-        <div class="content has-text-justified">
-          Recent years have seen the development of many
-          methods for robotic reinforcement learning (RL), some of
-          which can even operate on complex image observations, train
-          in the real world, and incorporate auxiliary data, such as
-          demonstrations and prior experience. However, despite these
-          advances, robotic RL remains hard to use. It is acknowledged
-          among practitioners that the particular implementation details
-          of these algorithms are often just as important (if not moreso)
-          for performance as the choice of algorithm that is actually
-          used. We posit that a significant challenge to widespread
-          adoption of robotic RL, as well as further development of
-          robotic RL methods, is the comparative inaccessibility of such
-          methods. To address this challenge, we developed a carefully
-          implemented library containing a sample efficient off-policy
-          deep RL method, together with methods for computing rewards
-          and resetting the environment, high-quality controllers for a few
-          common robots, and a number of challenging example tasks.We
-          provide this library as a resource for the community, describe
-          its design choices, and present experimental results. Perhaps
-          surprisingly, we find that our implementation can achieve very
-          efficient learning, acquiring policies for PCB board assembly,
-          cable routing, and object relocation in less than an hour of
-          training per policy, matching or improving over state-of-theart
-          results reported for similar tasks in the literature. We hope
-          that these promising results and our high-quality open-source
-          implementation will provide a tool for the robotics community
-          to study new developments in robotic RL.
+      <div class="columns is-centered has-text-centered">
+        <div class="column">
+          <h2 class="title is-3">Abstract</h2>
+          <div class="content has-text-justified">
+            Recent years have seen the development of many
+            methods for robotic reinforcement learning (RL), some of
+            which can even operate on complex image observations, train
+            in the real world, and incorporate auxiliary data, such as
+            demonstrations and prior experience. However, despite these
+            advances, robotic RL remains hard to use. It is acknowledged
+            among practitioners that the particular implementation details
+            of these algorithms are often just as important (if not moreso)
+            for performance as the choice of algorithm that is actually
+            used. We posit that a significant challenge to widespread
+            adoption of robotic RL, as well as further development of
+            robotic RL methods, is the comparative inaccessibility of such
+            methods. To address this challenge, we developed a carefully
+            implemented library containing a sample efficient off-policy
+            deep RL method, together with methods for computing rewards
+            and resetting the environment, high-quality controllers for a few
+            common robots, and a number of challenging example tasks.We
+            provide this library as a resource for the community, describe
+            its design choices, and present experimental results. Perhaps
+            surprisingly, we find that our implementation can achieve very
+            efficient learning, acquiring policies for PCB board assembly,
+            cable routing, and object relocation in less than an hour of
+            training per policy, matching or improving over state-of-theart
+            results reported for similar tasks in the literature. We hope
+            that these promising results and our high-quality open-source
+            implementation will provide a tool for the robotics community
+            to study new developments in robotic RL.
+          </div>
         </div>
       </div>
-    </div> -->
-      <!--/ Abstract. -->
     </div>
-  </section>
+  </section> -->
+
 
 
 
   <section class="section">
     <div class="container">
-      <h2 class="title is-2" style="text-align: center;">PCB Component Insertion</h2>
+      <h2 class="title is-3" style="text-align: center;">Uncut Training Process</h2>
       <div class="column is-full-width is-centered">
-        <div id="results-carousel" class="carousel results-carousel">
+        <!-- <h3 class="title is-4" style="text-align: center;">Uncut Training Process</h3> -->
+        <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/timelapse.mp4"
+          poster="./resources/loading-icon.gif"></video>
+      </div>
+    </div>
+  </section>
 
+  <!-- <div class="container">
+    <div class="column is-full-width is-centered">
+
+      <h3 class="title is-4" style="text-align: center;">Zero-shot Generalization to Perturbations and Distractors
+      </h3>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/mad_perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/blind_folding_1.mp4" poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/distract_1.mp4"
+            poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/search_0.mp4"
+            poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/search_1.mp4"
+            poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/perturb_search_0.mp4" poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/perturb_search_1.mp4" poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/mad_perturb_0.mp4" poster="./resources/loading-icon.gif"></video>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/distract_2.mp4"
+            poster="./resources/loading-icon.gif"></video>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </section> -->
+
+  <section class="section">
+    <div class="container">
+      <h2 class="title is-3" style="text-align: center;">Zero-shot Robustness to Perturbations and Distractors</h2>
+      <div class="column is-full-width is-centered">
+        <h2 class="title is-4" style="text-align: center;">PCB Component Insertion</h2>
+
+        <div id="results-carousel" class="carousel results-carousel">
           <div class="item">
             <video controls="" autoplay="" loop="" muted="" playsinline=""
               src="./static/videos/pcb_videos/mad_perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
@@ -244,13 +305,9 @@
           </div>
         </div>
       </div>
-    </div>
-  </section>
 
-  <section class="section">
-    <div class="container">
-      <h2 class="title is-2" style="text-align: center;">Cable Routing</h2>
       <div class="column is-full-width is-centered">
+        <h2 class="title is-4" style="text-align: center;">Cable Routing</h2>
         <div id="results-carousel" class="carousel results-carousel">
           <div class="item">
             <video controls="" autoplay="" loop="" muted="" playsinline=""
@@ -258,7 +315,7 @@
           </div>
           <div class="item">
             <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_1.mp4"
-            poster="./resources/loading-icon.gif"></video>
+              poster="./resources/loading-icon.gif"></video>
           </div>
           <div class="item">
             <video controls="" autoplay="" loop="" muted="" playsinline=""
@@ -266,7 +323,7 @@
           </div>
           <div class="item">
             <video controls="" autoplay="" loop="" muted="" playsinline=""
-            src="./static/videos/cable_videos/perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
+              src="./static/videos/cable_videos/perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
           </div>
           <div class="item">
             <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_0.mp4"
@@ -275,6 +332,33 @@
           <div class="item">
             <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_2.mp4"
               poster="./resources/loading-icon.gif"></video>
+          </div>
+        </div>
+      </div>
+
+      <div class="column is-full-width is-centered">
+        <h2 class="title is-4" style="text-align: center;">Object Relocation</h2>
+        <div id="results-carousel" class="carousel results-carousel">
+          <div class="item">
+            <video controls="" autoplay="" loop="" muted="" playsinline=""
+              src="./static/videos/relocation_videos/bin_distractor2.mp4" poster="./resources/loading-icon.gif"></video>
+          </div>
+          <div class="item">
+            <video controls="" autoplay="" loop="" muted="" playsinline=""
+              src="./static/videos/relocation_videos/bin_distractor1.mp4" poster="./resources/loading-icon.gif"></video>
+          </div>
+          <div class="item">
+            <video controls="" autoplay="" loop="" muted="" playsinline=""
+              src="./static/videos/relocation_videos/bin_generalization1.mp4"
+              poster="./resources/loading-icon.gif"></video>
+          </div>
+          <div class="item">
+            <video controls="" autoplay="" loop="" muted="" playsinline=""
+              src="./static/videos/relocation_videos/bin_normal1.mp4" poster="./resources/loading-icon.gif"></video>
+          </div>
+          <div class="item">
+            <video controls="" autoplay="" loop="" muted="" playsinline=""
+              src="./static/videos/relocation_videos/bin_normal2.mp4" poster="./resources/loading-icon.gif"></video>
           </div>
         </div>
       </div>
@@ -289,40 +373,38 @@
     year      = {2021},
   }
  -->
-  <section class="section" id="BibTeX">
-    <div class="container content">
-      <h2 class="title">BibTeX</h2>
-      <pre><code>
+  <!-- <section class="section" id="BibTeX">
+    <div class="column">
+      <div class="container content">
+        <h2 class="title">BibTeX</h2>
+        <pre><code>
       TODO
     </code></pre>
+      </div>
     </div>
-  </section>
+  </section> -->
 
 
   <footer class="footer">
     <div class="container">
-      <div class="content has-text-centered">
+      <!-- <div class="content has-text-centered">
         <a class="icon-link" href="./static/videos/nerfies_paper.pdf">
           <i class="fas fa-file-pdf"></i>
         </a>
         <a class="icon-link" href="https://github.com/keunhong" class="external-link" disabled>
           <i class="fab fa-github"></i>
         </a>
-      </div>
+      </div> -->
       <div class="columns is-centered">
         <div class="column is-8">
           <div class="content">
+            <!-- <p>
+              All software is provided under the <a href="https://creativecommons.org/licenses/by/4.0/">Creative Commons
+                Attribution 4.0 International License </a>.
+            </p> -->
             <p>
-              This website is licensed under a <a rel="license"
-                href="http://creativecommons.org/licenses/by-sa/4.0/">Creative
-                Commons Attribution-ShareAlike 4.0 International License</a>.
-            </p>
-            <p>
-              This means you are free to borrow the <a href="https://github.com/nerfies/nerfies.github.io">source
-                code</a> of this website,
-              we just ask that you link back to this page in the footer.
-              Please remember to remove the analytics code included in the header of the website which
-              you do not want on your website.
+              This website was built off of <a href="https://github.com/nerfies/nerfies.github.io">nerfies</a> source
+              code
             </p>
           </div>
         </div>
