@@ -55,14 +55,10 @@
                 <a href="https://youliangtan.github.io/">You Liang Tan</a><sup>1</sup>,
               </span>
               <span class="author-block">
-                <a href="https://sirigadipudi.github.io/">Siri Gadipudi</a><sup>2</sup>,
+                <a href="https://www.linkedin.com/in/jacob-b-066234203">Jacob Berg</a><sup>2</sup>,
               </span>
               <span class="author-block">
                 <a href="https://architsharma97.github.io/">Archit Sharma</a><sup>3</sup>,
-              </span>
-              <span class="author-block">
-                <a href="https://www.linkedin.com/in/ahmadrehaan/">Rehaan Ahmad</a><sup>3</sup>,
-                <!--               Rehaan Ahmad<sup>3</sup>, -->
               </span>
               <span class="author-block">
                 <a href="https://stefan-schaal.net/">Stefan Schaal</a><sup>4</sup>,
@@ -263,104 +259,119 @@
   <section class="section">
     <div class="container">
       <h2 class="title is-3" style="text-align: center;">Zero-shot Robustness to Perturbations and Distractors</h2>
-      <div class="column is-full-width is-centered">
-        <h2 class="title is-4" style="text-align: center;">PCB Component Insertion</h2>
 
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/pcb_videos/mad_perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/pcb_videos/blind_folding_1.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/pcb_videos/distract_1.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/search_0.mp4"
-              poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/search_1.mp4"
-              poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/pcb_videos/perturb_search_0.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/pcb_videos/perturb_search_1.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/pcb_videos/mad_perturb_0.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/pcb_videos/distract_2.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
+
+      <h2 class="title is-4" style="text-align: center; margin-bottom: 5px;">PCB Component Insertion</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/mad_perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent succesfully inserts the PCB component as trained.</div>
         </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/blind_folding_1.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent succesfully inserts the PCB component after being blind-folded and the board moved.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/distract_1.mp4"
+            poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent succesfully inserts the PCB component despite multiple distractor objects on the PCB board.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/search_0.mp4"
+            poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent succeeds when the board is not fixed to the table.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/search_1.mp4"
+            poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent succesfully inserts the PCB component into a the board in a different pose than training.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/perturb_search_0.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent successfully finds the holes in the board after it is moved.</div>
+        </div>
+        <!-- <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/perturb_search_1.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent successfully finds the holes in the board after it is continuously moved.</div>
+        </div> -->
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/pcb_videos/mad_perturb_0.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent successfully finds the holes in the board after it is continuously moved.</div>
+        </div>
+        <!-- <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/pcb_videos/distract_2.mp4"
+            poster="./resources/loading-icon.gif"></video>
+        </div> -->
       </div>
 
-      <div class="column is-full-width is-centered">
-        <h2 class="title is-4" style="text-align: center;">Cable Routing</h2>
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/cable_videos/regular_0.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_1.mp4"
-              poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/cable_videos/perturb_1.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/cable_videos/perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_0.mp4"
-              poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_2.mp4"
-              poster="./resources/loading-icon.gif"></video>
-          </div>
+      <h2 class="title is-4" style="text-align: center; margin-bottom: 5px;">Cable Routing</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/cable_videos/regular_0.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent succesfully routes the cable as trained.</div>
         </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_1.mp4"
+            poster="./resources/loading-icon.gif"></video>
+            <div class="caption">The agent generalizes to route the cable through an unseen clip pose.</div>
+          </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/cable_videos/perturb_1.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent successfully routes the cable dispite continuous perturbation to the clip.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/cable_videos/perturb_2.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent successfully routes the cable dispite continuous perturbation to the clip.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_0.mp4"
+            poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent generalizes to route the cable through an unseen clip pose.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline="" src="./static/videos/cable_videos/rand_2.mp4"
+            poster="./resources/loading-icon.gif"></video>
+            <div class="caption">The agent generalizes to route the cable through an unseen clip pose.</div>
+          </div>
       </div>
 
-      <div class="column is-full-width is-centered">
-        <h2 class="title is-4" style="text-align: center;">Object Relocation</h2>
-        <div id="results-carousel" class="carousel results-carousel">
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/relocation_videos/bin_distractor2.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/relocation_videos/bin_distractor1.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/relocation_videos/bin_generalization1.mp4"
-              poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/relocation_videos/bin_normal1.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
-          <div class="item">
-            <video controls="" autoplay="" loop="" muted="" playsinline=""
-              src="./static/videos/relocation_videos/bin_normal2.mp4" poster="./resources/loading-icon.gif"></video>
-          </div>
+      <h2 class="title is-4" style="text-align: center; margin-bottom: 5px;">Object Relocation</h2>
+      <div id="results-carousel" class="carousel results-carousel">
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/relocation_videos/bin_normal2.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent relocates the object as trained.</div>
         </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/relocation_videos/bin_distractor2.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent relocates the trained object despite multiple distractors in the bins.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/relocation_videos/bin_distractor1.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent relocates the trained object despite a distractor in the scene. </div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/relocation_videos/bin_generalization1.mp4"
+            poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent generalizes to relocate a different object than trained.</div>
+        </div>
+        <div class="item">
+          <video controls="" autoplay="" loop="" muted="" playsinline=""
+            src="./static/videos/relocation_videos/bin_normal1.mp4" poster="./resources/loading-icon.gif"></video>
+          <div class="caption">The agent completes the task as trained.</div>
+        </div>
+        <!-- </div> -->
       </div>
   </section>
 
