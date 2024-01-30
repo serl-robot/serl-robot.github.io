@@ -53,8 +53,8 @@ body {
 }
 
 .publication-venue {
+    font-family: 'Google Sans', sans-serif;
     color: #555;
-    font-weight: bold;
 }
 
 .publication-awards {
