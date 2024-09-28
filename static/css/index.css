@@ -99,16 +99,20 @@ body {
 }
 
 .results-carousel .item {
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center vertically */
+  align-items: center; /* Center horizontally */
   margin: 5px;
   overflow: hidden;
-  /* border: 1px solid #bbb;
-  border-radius: 10px; */
   padding: 0;
   font-size: 0;
 }
 
 .results-carousel video {
-  margin: 0;
+  height: 300px; /* Fixed height */
+  width: auto; /* Adjust width based on aspect ratio */
+  object-fit: contain;
 }
 
 .results-carousel .item .caption {
@@ -145,3 +149,4 @@ body {
 #interpolation-image-wrapper img {
   border-radius: 5px;
 }
+
